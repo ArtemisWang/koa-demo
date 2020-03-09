@@ -16,7 +16,7 @@ app.use(async(ctx)=>{
         req_querystring,
         ctx_query,
         ctx_querystring,
-        "name":ctx_query["name"],
+        "name":ctx_query.name,
     }
 })
 
